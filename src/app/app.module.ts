@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RxjspracComponent } from './rxjsprac/rxjsprac.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    RxjspracComponent
   ],
   imports: [
     BrowserModule,
